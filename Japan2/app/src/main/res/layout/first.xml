@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="犯は誰ですか"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        />
+    <LinearLayout
+        android:paddingTop="104dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:text="First Option"
+            android:gravity="center"
+            android:background="@android:color/holo_red_light"
+            android:layout_marginRight="24dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/first"/>
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:text="Second Option"
+            android:gravity="center"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:text="Third Option"
+            android:gravity="center"
+            android:background="@android:color/holo_purple"
+            android:layout_marginRight="24dp"
+            android:textColor="@android:color/white"
+
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:text="Fourth Option"
+            android:gravity="center"
+            android:background="@android:color/holo_green_light"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
