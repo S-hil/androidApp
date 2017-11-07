@@ -21,19 +21,21 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:text="First Option"
+            android:text="なり"
             android:gravity="center"
             android:background="@android:color/holo_red_light"
             android:layout_marginRight="24dp"
             android:textColor="@android:color/white"
-            android:id="@+id/first"/>
+            android:id="@+id/first"
+            style="@style/AppTheme"/>
         <TextView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:text="Second Option"
+            android:text="kriw"
             android:gravity="center"
             android:background="@android:color/holo_blue_dark"
-            android:textColor="@android:color/white"/>
+            android:textColor="@android:color/white"
+            style="@style/AppTheme"/>
     </LinearLayout>
     <LinearLayout
         android:paddingTop="16dp"
@@ -44,20 +46,22 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:text="Third Option"
+            android:text="Trump"
             android:gravity="center"
             android:background="@android:color/holo_purple"
             android:layout_marginRight="24dp"
             android:textColor="@android:color/white"
+            style="@style/AppTheme"
 
             />
         <TextView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:text="Fourth Option"
+            android:text="安部しんぞう"
             android:gravity="center"
             android:background="@android:color/holo_green_light"
-            android:textColor="@android:color/white"/>
+            android:textColor="@android:color/white"
+            style="@style/AppTheme"/>
     </LinearLayout>
 
 </LinearLayout>

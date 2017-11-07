@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="東工大の中で、四文字のサイトURLどっちのサークル"
+        android:text="東工大の中で、四文字のサイトURLどっちのサークルが持っていますか"
         android:gravity="center"
         android:textSize="24sp"
         android:padding="16dp"
@@ -18,22 +18,25 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center">
-        <TextViewが持っていますか
+        <TextView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:text="First Option"
+            android:text="Trap"
             android:gravity="center"
             android:background="@android:color/holo_red_light"
             android:layout_marginRight="24dp"
             android:textColor="@android:color/white"
-            android:id="@+id/second"/>
+            android:id="@+id/second"
+            style="@style/AppTheme"
+            />
         <TextView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:text="Second Option"
+            android:text="じつい"
             android:gravity="center"
             android:background="@android:color/holo_blue_dark"
-            android:textColor="@android:color/white"/>
+            android:textColor="@android:color/white"
+            style="@style/AppTheme"/>
     </LinearLayout>
     <LinearLayout
         android:paddingTop="16dp"
@@ -44,20 +47,22 @@
         <TextView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:text="Third Option"
+            android:text="アメフト部"
             android:gravity="center"
             android:background="@android:color/holo_purple"
             android:layout_marginRight="24dp"
             android:textColor="@android:color/white"
+            style="@style/AppTheme"
 
             />
         <TextView
             android:layout_width="160dp"
             android:layout_height="160dp"
-            android:text="Fourth Option"
+            android:text="H2O"
             android:gravity="center"
             android:background="@android:color/holo_green_light"
-            android:textColor="@android:color/white"/>
+            android:textColor="@android:color/white"
+            style="@style/AppTheme"/>
     </LinearLayout>
 
 </LinearLayout>
