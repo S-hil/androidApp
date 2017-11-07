@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class second extends AppCompatActivity {
 
@@ -14,6 +15,7 @@ public class second extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second);
         TextView family = (TextView) findViewById(R.id.second);
+        Toast.makeText(second.this, "簡単すぎぃ", Toast.LENGTH_SHORT).show();
 
 // Set a click listener on that View
         family.setOnClickListener(new View.OnClickListener() {
